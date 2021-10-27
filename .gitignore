@@ -6,3 +6,4 @@ build-temp
 
 *DS_Store
 */DS_Store
+make/junit*.properties

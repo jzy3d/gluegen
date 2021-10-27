@@ -1465,8 +1465,10 @@
       <linkerarg value="ppc" if="use.macosppc"/>
       <linkerarg value="-arch" if="use.macosx32"/>
       <linkerarg value="i386" if="use.macosx32"/>
+      <!--<linkerarg value="-arch" if="use.macosx64"/>
+      <linkerarg value="x86_64" if="use.macosx64"/>-->
       <linkerarg value="-arch" if="use.macosx64"/>
-      <linkerarg value="x86_64" if="use.macosx64"/>
+      <linkerarg value="arm64" if="use.macosx64"/>
       <linkerarg value="-mmacosx-version-min=10.5"/>
       <linkerarg value="-static-libgcc" if="isGCC"/>
       <linkerarg value="-static-libstdc++" if="isGCC"/>
