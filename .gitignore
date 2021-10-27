@@ -3,3 +3,7 @@ make/GnuCTreeParserTokenTypes.txt
 make/STDCTokenTypes.txt
 build*/
 build-temp
+
+*DS_Store
+*/DS_Store
+make/junit*.properties
